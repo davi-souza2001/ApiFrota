@@ -20,5 +20,5 @@ function show(users) {
         output += `<li>${user.name}</li>`; 
     }
 
-    document.querySelector('body').innerHTML = output;
+    document.querySelector('.table').innerHTML = output;
 }
