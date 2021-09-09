@@ -6,5 +6,5 @@
 
 ## Frontend 🧧
 
--  Fetch consuming our API backend
+- Fetch consuming our API backend
 - Create an API to be read without a front

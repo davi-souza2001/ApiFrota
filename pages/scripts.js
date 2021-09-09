@@ -1,24 +1,24 @@
-console.log("Estou aqui");
 
-async function getApi() {
+
+async function getcontent(){
     try {
         const response = await fetch('http://localhost:4567/');
         const data = await response.json();
-        console.log(data)
-        
-    } catch (error){
-        console.log(error);
+
+        show(data)
+    } catch (error) {
+        console.error(error);
     }
 }
 
-getApi();
+getcontent();
 
-/* function show(users) {
+function show(users) {
     let output = '';
 
-    for (let user of users) {
-        output += `<li>${user}</li>`
-    };
+    for( let user of users ) {
+        output += `<li>${user.name}</li>`; 
+    }
 
     document.querySelector('body').innerHTML = output;
-} */
+}
