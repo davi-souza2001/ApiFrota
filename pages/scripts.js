@@ -1,4 +1,4 @@
-function show(car){
+/* function show(car){
     let output = '';
 
     output += `<ul><li>${car.id}</li></ul>`;
@@ -11,24 +11,39 @@ function show(car){
     console.log(car.id)
     console.log(car.name)
     console.log(car.price)
-}
+} */
 
 async function getApi(){
     try {
-        let list = '';
-        document.querySelector('.contenttable').innerHTML = list;
         const response = await fetch('http://localhost:3001/cars');
         const data = await response.json();
-        data.map( (cars) => {
-           console.log(cars.id);
-           console.log(cars.name);
-           console.log(cars.price);
-        })
-        
+        let cars = data.map( (cars, i) => {
+            return ` 
+            <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>  
+                <tr>
+                    <td>${i + 1}</td>
+                    <td>${cars.name}</td>
+                    <td>${cars.price}</td>
+                </tr>
+            <tbody> 
+            </table>
+            `
+        });
+        document.querySelector('.contenttable').innerHTML = cars;
     } catch (error) {
         console.error(error);
     }
 }
+
+
 
 getApi()
 
