@@ -1,0 +1,18 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Nissan Skyline",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Celta",
+      "price": 29.999
+    },{
+      "id": 3,
+      "name": "Renault Sandero",
+      "price": 49.999
+    }
+  ]
+}
