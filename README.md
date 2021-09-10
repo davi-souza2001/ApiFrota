@@ -1,7 +1,7 @@
 # 🎈API
 
 ### Create a API object ⚙
- - Install dependeces `npm i express nodemon cors axios`
+ - Install dependeces `npm i express nodemon cors axios`!
 
 
 ## Frontend 🧧
