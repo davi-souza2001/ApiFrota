@@ -1,6 +1,6 @@
 async function getApiData() {
   try {
-    const response = await fetch("http://frota-api.glitch.me/dados");
+    const response = await fetch("https://frota-api.glitch.me/dados");
     return response.json();
   } catch (error) {
     console.error(error);
@@ -8,7 +8,7 @@ async function getApiData() {
 }
 
 function insertContent(data) {
-  const preContent = `<small><table>
+  const preContent = `<table>
             <tr>
             <th>id</th>
             <th>timestamp</th>
@@ -27,7 +27,7 @@ function insertContent(data) {
             <th>throttlePos</th>
         </tr>`;
 
-  const postContent = `</table></small>`;
+  const postContent = `</table>`;
 
   let content = "";
 
