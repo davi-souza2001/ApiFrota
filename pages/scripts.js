@@ -31,7 +31,7 @@ async function getApi(){
                 <tr>
                     <td>${i + 1}</td>
                     <td>${cars.name}</td>
-                    <td>${cars.price}</td>
+                    <td>${cars.price}</td> 
                 </tr>
             <tbody> 
             </table>
