@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@keyframes change{
+  from{
+      opacity: 0;
+      transform: scale(0.9);
+  }
+  to{
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  background-color: #4C1D95;
 }
 
 .head {
@@ -11,11 +28,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(88, 238, 88);
+  background-color: #1b1b1b;
 }
 
 .title {
+  background-color: #4C1D95;
+  padding: 15px;
   margin-left: 5vw;
+  border-radius: 15px;
+  color: #fff;
+  animation-name: change;
+  animation-duration: 0.5s;
 }
 
 .list {
@@ -34,7 +57,6 @@
 }
 
 .list hover {
-  transform: scale3d(0.1, 0.1, 0.1);
   color: white;
 }
 
@@ -42,10 +64,30 @@
   height: 90vh;
   width: 100vw;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items: flex-start;
+  justify-content: center;
+  color: #fff;
 }
 
-.contenttable ul li {
-  list-style-type: none;
+.contenttable table tr th{
+  padding: 0 1vw;
+  background-color: #1b1b1b;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 120%;
+  animation-name: change;
+  animation-duration: 0.7s;
+}
+
+.contenttable table tr td{
+  padding: 0 1vw;
+  background-color: #222222;
+  animation-name: change;
+  animation-duration: 0.9s;
+}
+
+@media (max-width: 1490px){
+  .contenttable {
+    font-size: 80%;
+  }
 }

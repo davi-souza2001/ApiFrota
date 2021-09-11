@@ -1,0 +1,104 @@
+{
+  "dados": [
+    {
+      "id": 1,
+      "collectTimestamp": "2021-04-05T01:10:48.038Z",
+      "bluetoothIsEnable": true,
+      "carDescription": "FUSCA.02019\r",
+      "elmVersion": "ELM327 v2.1\r",
+      "isoProtocol": "ISO 15765-4 (CAN 11/500)\r",
+      "connectObd": true,
+      "ignitionStatus": 173,
+      "fuelLevel": null,
+      "currentLatitude": " -29.7183354",
+      "currentLongitude": " -53.8082999",
+      "rpm": {
+        "value": 1344.5,
+        "lastRead": "2021-02-05T01:10:38.088Z"
+      },
+      "speed": {
+        "value": 15,
+        "lastRead": "2021-02-05T01:10:38.797Z"
+      },
+      "odometer": {
+        "value": 8627,
+        "lastRead": "2021-02-05T01:10:39.560Z"
+      },
+      "throttlePos": {
+        "value": "18.82",
+        "lastRead": "2021-02-05T01:10:40.260Z"
+      },
+      "ethanolPercent": {
+        "value": "21.18",
+        "lastRead": "2021-02-05T01:10:40.948Z"
+      },
+      "egnitionStatus": 173
+    },
+    {
+      "id": 2,
+      "collectTimestamp": "2021-04-05T01:10:48.038Z",
+      "bluetoothIsEnable": true,
+      "carDescription": "GOL.02019\r",
+      "elmVersion": "ELM327 v2.1\r",
+      "isoProtocol": "ISO 15765-4 (CAN 11/500)\r",
+      "connectObd": true,
+      "ignitionStatus": 111,
+      "fuelLevel": null,
+      "currentLatitude": " -32.7183354",
+      "currentLongitude": " -44.8082999",
+      "rpm": {
+        "value": 1344.5,
+        "lastRead": "2021-02-05T01:10:38.088Z"
+      },
+      "speed": {
+        "value": 24,
+        "lastRead": "2021-02-05T01:10:38.797Z"
+      },
+      "odometer": {
+        "value": 9333,
+        "lastRead": "2021-02-05T01:10:39.560Z"
+      },
+      "throttlePos": {
+        "value": "22.44",
+        "lastRead": "2021-02-05T01:10:40.260Z"
+      },
+      "ethanolPercent": {
+        "value": "11.33",
+        "lastRead": "2021-02-05T01:10:40.948Z"
+      }
+    },
+    {
+      "id": 3,
+      "collectTimestamp": "2021-02-05T01:10:48.038Z",
+      "bluetoothIsEnable": true,
+      "carDescription": "MARCH1.02016\r",
+      "elmVersion": "ELM327 v2.1\r",
+      "isoProtocol": "ISO 15765-4 (CAN 11/500)\r",
+      "connectObd": true,
+      "ignitionStatus": 173,
+      "fuelLevel": null,
+      "currentLatitude": " -29.7183354",
+      "currentLongitude": " -53.8082999",
+      "rpm": {
+        "value": 1344.5,
+        "lastRead": "2021-02-05T01:10:38.088Z"
+      },
+      "speed": {
+        "value": 15,
+        "lastRead": "2021-02-05T01:10:38.797Z"
+      },
+      "odometer": {
+        "value": 8627,
+        "lastRead": "2021-02-05T01:10:39.560Z"
+      },
+      "throttlePos": {
+        "value": "18.82",
+        "lastRead": "2021-02-05T01:10:40.260Z"
+      },
+      "ethanolPercent": {
+        "value": "21.18",
+        "lastRead": "2021-02-05T01:10:40.948Z"
+      }
+    }
+  ]
+}

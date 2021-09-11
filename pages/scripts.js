@@ -1,6 +1,6 @@
 async function getApiData() {
   try {
-    const response = await fetch("https://frota-api.glitch.me/dados");
+    const response = await fetch("http://localhost:3001/dados");
     return response.json();
   } catch (error) {
     console.error(error);
@@ -10,21 +10,21 @@ async function getApiData() {
 function insertContent(data) {
   const preContent = `<table>
             <tr>
-            <th>id</th>
-            <th>timestamp</th>
-            <th>bluetooth</th>
+            <th>Id</th>
+            <th>Timestamp</th>
+            <th>Bluetooth</th>
             <th>Car</th>
-            <th>connectObd</th>
+            <th>ConnectObd</th>
             <th>Lat</th>
             <th>Long</th>
-            <th>egnitionStatus</th>
-            <th>elmVersion</th>
-            <th>ethanol %</th>
-            <th>fuelLevel</th>
-            <th>odometer</th>
-            <th>rpm</th>
-            <th>speed</th>
-            <th>throttlePos</th>
+            <th>EgnitionStatus</th>
+            <th>ElmVersion</th>
+            <th>Ethanol %</th>
+            <th>FuelLevel</th>
+            <th>Odometer</th>
+            <th>Rpm</th>
+            <th>Speed</th>
+            <th>ThrottlePos</th>
         </tr>`;
 
   const postContent = `</table>`;

@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon services/server.js",
-    "api": "json-server --watch pages/db.json --port 3001"
+    "api": "json-server --watch services/db.json --port 3001"
   },
   "license": "MIT",
   "dependencies": {
