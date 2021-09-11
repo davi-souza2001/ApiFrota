@@ -1,3 +1,15 @@
+let content = `
+  <div class="head">
+    <div class="title">
+        <h1>Tabela</h1>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="contenttable"></div>  
+`
+document.querySelector(".contentGeral").innerHTML = content;
+
 async function getApiData() {
   try {
     const response = await fetch("http://localhost:3001/dados");
@@ -75,3 +87,5 @@ function insertContent(data) {
 
 const apiResponse = await getApiData();
 insertContent(apiResponse);
+
+
