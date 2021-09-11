@@ -11,6 +11,19 @@
   }
 }
 
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #363636;
+  border-radius: 20px; 
+}
+
 * {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -19,7 +32,7 @@
 }
 
 body{
-  background-color: #4C1D95;
+  background-color: #131313;
 }
 
 .head {
@@ -29,16 +42,23 @@ body{
   align-items: center;
   justify-content: space-between;
   background-color: #1b1b1b;
+  border-bottom: 1px solid #4C1D95;
 }
 
 .title {
   background-color: #4C1D95;
+  box-shadow: 0 0 1em black;
   padding: 15px;
   margin-left: 5vw;
   border-radius: 15px;
   color: #fff;
   animation-name: change;
   animation-duration: 0.5s;
+}
+
+.title:hover {
+  background: rgb(120,39,108);
+  background: linear-gradient(0deg, rgba(120,39,108,1) 0%, rgba(76,29,149,1) 100%);
 }
 
 .list {
@@ -50,43 +70,42 @@ body{
   margin-right: 5vw;
 }
 
-.list p {
-  transition: 0.2s;
-  margin: 0 1vw;
-  cursor: pointer;
-}
-
-.list hover {
-  color: white;
-}
-
 .contenttable {
   height: 80vh;
   width: 100vw;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  color: #fff;
+  color: #ffffff;
 }
 
 .contenttable table tr th{
+  border: 1px solid #4C1D95;
   padding: 0 1vw;
   background-color: #1b1b1b;
   padding: 10px;
-  border-radius: 10px;
   font-size: 120%;
   animation-name: change;
   animation-duration: 0.7s;
 }
 
 .contenttable table tr td{
-  padding: 0 1vw;
+  border: 1px solid #4C1D95;
+  padding: 2px 1vw;
   background-color: #222222;
   animation-name: change;
   animation-duration: 0.9s;
 }
 
-@media (max-width: 1490px){
+.contenttable table tr td:hover{
+  border: 1px solid #4C1D95;
+  padding: 2px 1vw;
+  background-color: #303030;
+  animation-name: change;
+  animation-duration: 0.9s;
+}
+
+@media (max-width: 360px){
   .contenttable {
     font-size: 80%;
   }
