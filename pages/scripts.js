@@ -17,14 +17,14 @@ function insertContent(data) {
             <th>ConnectObd</th>
             <th>Lat</th>
             <th>Long</th>
-            <th>EgnitionStatus</th>
+            <th>Distance</th>
             <th>ElmVersion</th>
             <th>Ethanol %</th>
             <th>FuelLevel</th>
             <th>Odometer</th>
             <th>Rpm</th>
             <th>Speed</th>
-            <th>ThrottlePos</th>
+            <th>Travel Time</th>
         </tr>`;
 
   const postContent = `</table>`;
@@ -40,14 +40,14 @@ function insertContent(data) {
       connectObd,
       currentLatitude,
       currentLongitude,
-      ignitionStatus,
+      distance,
       elmVersion,
       ethanolPercent,
       fuelLevel,
       odometer,
       rpm,
       speed,
-      throttlePos,
+      TravelTime,
     } = car;
 
     content += ` 
@@ -59,14 +59,14 @@ function insertContent(data) {
         <td>${connectObd}</td>
         <td>${currentLatitude}</td>
         <td>${currentLongitude}</td>
-        <td>${ignitionStatus}</td>
+        <td>${distance}</td>
         <td>${elmVersion}</td>
         <td>${ethanolPercent.value}</td>
         <td>${fuelLevel}</td>
         <td>${odometer.value}</td>
         <td>${rpm.value}</td>
         <td>${speed.value}</td>
-        <td>${throttlePos.value}</td>
+        <td>${TravelTime.value}</td>
         </tr>`;
   });
   content = preContent + content + postContent;

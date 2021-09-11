@@ -8,7 +8,7 @@
       "elmVersion": "ELM327 v2.1\r",
       "isoProtocol": "ISO 15765-4 (CAN 11/500)\r",
       "connectObd": true,
-      "ignitionStatus": 173,
+      "distance": "173 Km",
       "fuelLevel": null,
       "currentLatitude": " -29.7183354",
       "currentLongitude": " -53.8082999",
@@ -24,7 +24,7 @@
         "value": 8627,
         "lastRead": "2021-02-05T01:10:39.560Z"
       },
-      "throttlePos": {
+      "TravelTime": {
         "value": "18.82",
         "lastRead": "2021-02-05T01:10:40.260Z"
       },
@@ -42,7 +42,7 @@
       "elmVersion": "ELM327 v2.1\r",
       "isoProtocol": "ISO 15765-4 (CAN 11/500)\r",
       "connectObd": true,
-      "ignitionStatus": 111,
+      "distance": "173 Km",
       "fuelLevel": null,
       "currentLatitude": " -32.7183354",
       "currentLongitude": " -44.8082999",
@@ -58,7 +58,7 @@
         "value": 9333,
         "lastRead": "2021-02-05T01:10:39.560Z"
       },
-      "throttlePos": {
+      "TravelTime": {
         "value": "22.44",
         "lastRead": "2021-02-05T01:10:40.260Z"
       },
@@ -75,7 +75,7 @@
       "elmVersion": "ELM327 v2.1\r",
       "isoProtocol": "ISO 15765-4 (CAN 11/500)\r",
       "connectObd": true,
-      "ignitionStatus": 173,
+      "distance": "173 Km",
       "fuelLevel": null,
       "currentLatitude": " -29.7183354",
       "currentLongitude": " -53.8082999",
@@ -91,7 +91,7 @@
         "value": 8627,
         "lastRead": "2021-02-05T01:10:39.560Z"
       },
-      "throttlePos": {
+      "TravelTime": {
         "value": "18.82",
         "lastRead": "2021-02-05T01:10:40.260Z"
       },
