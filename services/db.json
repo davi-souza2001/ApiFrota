@@ -99,6 +99,39 @@
         "value": "21.18",
         "lastRead": "2021-02-05T01:10:40.948Z"
       }
+    }, 
+    {
+      "id": 4,
+      "collectTimestamp": "2021-04-05T01:10:48.038Z",
+      "bluetoothIsEnable": true,
+      "carDescription": "LOGAN.02019\r",
+      "elmVersion": "ELM327 v2.1\r",
+      "isoProtocol": "ISO 15765-4 (CAN 11/500)\r",
+      "connectObd": true,
+      "distance": "200 Km",
+      "fuelLevel": null,
+      "currentLatitude": " -11.7183354",
+      "currentLongitude": " -30.8082999",
+      "rpm": {
+        "value": 1344.5,
+        "lastRead": "2021-02-05T01:10:38.088Z"
+      },
+      "speed": {
+        "value": 36,
+        "lastRead": "2021-02-05T01:10:38.797Z"
+      },
+      "odometer": {
+        "value": 9333,
+        "lastRead": "2021-02-05T01:10:39.560Z"
+      },
+      "TravelTime": {
+        "value": "22.44",
+        "lastRead": "2021-02-05T01:10:40.260Z"
+      },
+      "ethanolPercent": {
+        "value": "09.22",
+        "lastRead": "2021-02-05T01:10:40.948Z"
+      }
     }
   ]
 }
