@@ -132,6 +132,40 @@
         "value": "09.22",
         "lastRead": "2021-02-05T01:10:40.948Z"
       }
+    },
+    {
+      "id": 5,
+      "collectTimestamp": "2021-04-05T01:10:48.038Z",
+      "bluetoothIsEnable": true,
+      "carDescription": "Astra\r",
+      "elmVersion": "ELM327 v2.1\r",
+      "isoProtocol": "ISO 15765-4 (CAN 11/500)\r",
+      "connectObd": true,
+      "distance": "173 Km",
+      "fuelLevel": null,
+      "currentLatitude": " -29.7183354",
+      "currentLongitude": " -53.8082999",
+      "rpm": {
+        "value": 1344.5,
+        "lastRead": "2021-02-05T01:10:38.088Z"
+      },
+      "speed": {
+        "value": 15,
+        "lastRead": "2021-02-05T01:10:38.797Z"
+      },
+      "odometer": {
+        "value": 8627,
+        "lastRead": "2021-02-05T01:10:39.560Z"
+      },
+      "TravelTime": {
+        "value": "18.82",
+        "lastRead": "2021-02-05T01:10:40.260Z"
+      },
+      "ethanolPercent": {
+        "value": "21.18",
+        "lastRead": "2021-02-05T01:10:40.948Z"
+      },
+      "egnitionStatus": 173
     }
   ]
 }
